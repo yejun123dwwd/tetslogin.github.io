@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+#main_mid img {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#main_mid span {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#main_mid h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#main_mid p {
+    font-size: 16px;
+    color: #333;
+    line-height: 28px;
+}
+
+#main_right {
+    width: 333px;
+    height: 200px;
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+}
+
+#main_right h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #7973b1;
+}
+
+#main_right img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+#main_right ul li p {
+    margin: 10px 0px;
+    color: #333;
+    cursor: pointer;
+}
+
+#main_right span {
+    color: #7973b1;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.suojin {
+    text-indent: 32px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+}
+
+footer p {
+    line-height: 60px;
+    color: #333;
+    font-size: 14px;
+}
+
+/* 第二页css */
+#juqing {
+    width: 100%;
+}
+
+
+#juqing h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #7973b1;
+    margin-bottom: 20px;
+}
+
+#juqing img {
+    margin-left: 10px;
+    width: 400px;
+    float: right;
+    border-radius: 10px;
+}
+
+#juqing p {
+    font-size: 16px;
+    text-indent: 32px;
+    color: #333;
+    line-height: 30px;
+}
+
+#juqing h3 {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+/* 第三页 */
+#renwu {
+    font-size: 16px;
+}
+
+#renwu ul li {
+    margin: 40px 0px;
+}
+
+#renwu h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #7973b1;
+    margin-bottom: 20px;
+}
+
+#renwu img {
+    float: left;
+    height: 140px;
+    margin-right: 20px;
+}
+
+#jianjie {
+    display: inline-block;
+    height: 140px;
+}
+
+#jianjie h3 {
+    color: #7973b1;
+}
+
+#jianjie span {
+    font-weight: 300;
+}
+
+#jianjie p {
+    color: #333;
+    width: 870px;
+    line-height: 30px;
+    height: 120px;
+    overflow: hidden;
+}
+
+/* 第四页 */
+#meitu {
+    font-size: 16px;
+}
+
+#meitu h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #7973b1;
+    margin-bottom: 20px;
+}
+
+#meitu h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #7973b1;
+}
+
+#phone {
+    margin-bottom: 10px;
+}
+
+#phone li {
+    width: 230px;
+    height: 400px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#phone li {
+    width: 230px;
+    height: 400px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+#phone li:nth-child(4n+1) {
+    margin-left: 0px;
+}
+
+#phone li img {
+    width: 100%;
+}
+
+#windows {
+    margin-bottom: 30px;
+}
+
+
+#windows li {
+    width: 320px;
+    height: 166px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+#windows li:nth-child(3n+1) {
+    margin-left: 0px;
+}
+
+#windows li img {
+    width: 100%;
+}
+
+/* 第五页 */
+#juji {
+    font-size: 16px;
+}
+
+#juji h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #7973b1;
+    margin-bottom: 20px;
+}
+
+#juji table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(106, 106, 106);
+    ;
+    border-right: 1px solid rgb(106, 106, 106);
+    ;
+}
+
+.title {
+    background-color: rgb(99, 98, 98);
+}
+
+.title td p {
+    color: #fff;
+    line-height: 40px;
+}
+
+#juji table td {
+    border-left: 1px solid rgb(106, 106, 106);
+    ;
+    border-top: 1px solid rgb(106, 106, 106);
+    line-height: 30px;
+    color: #333;
+}
+
+/* 第六页 */
+#denglu {
+    font-size: 16px;
+}
+
+#denglu h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #7973b1;
+    margin-bottom: 20px;
+}
+
+#denglu {
+    text-align: center;
+    line-height: 30px;
+}
+
+#biaodan {
+    display: inline-block;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+#login {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+}
+
+#biaodan input {
+    width: 200px;
+    height: 26px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+#login {
+    height: 30px !important;
+}
+
+/* 第七页 */
+#zhuce {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#zhuce h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #7973b1;
+    margin-bottom: 20px;
+}
+
+
